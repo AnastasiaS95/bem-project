@@ -1,5 +1,6 @@
+@import 'variables';
 body {
-    font-family: Arial, sans-serif;
+    font-family: $font-stack;
     margin: 0;
     padding: 0;
     }
@@ -8,7 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    color: #fff;
+    color: $primary-color;
     padding: 20px;
     height: 100px;
     }
@@ -20,7 +21,7 @@ body {
     display: flex;
     }
     .header__link {
-    color: #fff;
+    color: $primary-color;
     text-decoration: none;
     }
     .header__link:hover {
@@ -33,7 +34,7 @@ body {
     .section__gallery {
       display: flex;
       justify-content: space-between;
-      background-color:  #f7e8e1;
+      background-color:  $secondary-color;
       height: 400px;
     }
     .section__gallery--photo {
@@ -41,7 +42,7 @@ body {
     }
     .footer {
     background-color: #333;
-    color: #fff;
+    color: $primary-color;
     text-align: center;
     padding: 10px;
     position: relative;
